@@ -8,6 +8,10 @@ const languageOptions = [
   {
     label: "Spanish",
     value: "es"
+  },
+  {
+    label: "Japanese",
+    value: "ja"
   }
 ];
 

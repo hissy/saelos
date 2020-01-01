@@ -95,6 +95,7 @@ return [
                 'app_log_level_label_emergency' => 'emergency',
                 'app_url_label' => 'App Url',
                 'app_url_placeholder' => 'App Url',
+                'app_timezone_label' => 'App Timezone',
                 'db_connection_label' => 'Database Connection',
                 'db_connection_label_mysql' => 'mysql',
                 'db_connection_label_sqlite' => 'sqlite',

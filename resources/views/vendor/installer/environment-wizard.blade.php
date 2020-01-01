@@ -103,6 +103,18 @@
                         </span>
                     @endif
                 </div>
+                <div class="form-group {{ $errors->has('app_timezone') ? ' has-error ' : '' }}">
+                    <label for="app_timezone">
+                        {{ trans('installer_messages.environment.wizard.form.app_timezone_label') }}
+                    </label>
+                    <input type="text" name="app_timezone" id="app_timezone" value="" class="form-control" placeholder="UTC" />
+                    @if ($errors->has('app_timezone'))
+                        <span class="error-block">
+                            <i class="fa fa-fw fa-exclamation-triangle" aria-hidden="true"></i>
+                            {{ $errors->first('app_timezone') }}
+                        </span>
+                    @endif
+                </div>
 
                 <div class="buttons">
                     <button class="button" onclick="showDatabaseSettings();return false">
